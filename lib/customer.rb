@@ -1,3 +1,5 @@
+require 'pry'
+
 class Customer
    attr_accessor :name, :age
 
@@ -22,6 +24,7 @@ class Customer
    end
 
    def waiters
+     binding.pry
      self.meals.select{|meal| meal.waiter }
    end
 
