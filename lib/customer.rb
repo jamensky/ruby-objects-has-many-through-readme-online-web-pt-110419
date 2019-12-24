@@ -25,7 +25,6 @@ class Customer
 
    def waiters
      meals.map {|meal| meal.waiter }
-    # binding.pry
    end
 
 end
