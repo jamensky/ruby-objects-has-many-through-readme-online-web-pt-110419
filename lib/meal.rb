@@ -12,7 +12,7 @@ class Meal
   end
 
   def self.all
-    @@all 
-  end 
+    @@all
+  end
 
 end
