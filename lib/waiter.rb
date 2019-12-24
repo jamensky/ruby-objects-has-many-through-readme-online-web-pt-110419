@@ -22,7 +22,7 @@ class Waiter
   end
 
   def waiters(customer)
-    customer.meals 
-  end 
+    customer.meals
+  end
 
 end
