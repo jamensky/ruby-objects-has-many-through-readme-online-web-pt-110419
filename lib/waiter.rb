@@ -13,4 +13,6 @@ class Waiter
     @@all
   end
 
+  def new_meal(self, customer, total, tip)
+
 end
