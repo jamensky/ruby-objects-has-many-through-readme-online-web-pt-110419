@@ -8,6 +8,6 @@ class Meal
     @total = total
     @tip = tip
     @@all << self
-  end 
+  end
 
 end
